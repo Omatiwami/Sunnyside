@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 600px;
+    padding: 30px;
+    background-image: url(./images/desktop/image-header.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.logo-nav{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 130px;
+    height: 100%;
+    background-image: url(./images/logo.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.nav{
+    height: 100%;
+    width: 400px;
+}
+header h1{
+    text-align: center;
+    color: white;
+    margin-top: 60px;
+}
+.nav ul{
+    /* background-color: red; */
+    color: white;
+    display: flex;justify-content: space-between;
+    text-decoration: none;
+    list-style: none;
+    height: 100%;
+    align-items: center;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+}
+.nav li:hover{
+    text-transform: uppercase;
+    color: rgb(10, 10, 10);
+    padding: 10px;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 30px;
+}
+.arrow{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+ .showcase{
+    height: 1500px;
+}
+.showcase-container{
+    height: 33.33%;
+    display: flex;
+ }
+ .showcase-text, .showcase-img
+ {
+    height: 100%;
+    width: 50%;
+ }
+ .transform{
+    background-image: url(./images/desktop/image-transform.jpg);
+    background-position: center ;
+    background-size:cover ;
+ }
+ .stand-out{
+    background-image: url(./images/desktop/image-stand-out.jpg);
+    background-position: center;
+    background-size: cover;
+ }
+ .graphic-design{
+    display: flex;
+    background-image: url(./images/desktop/image-graphic-design.jpg);
+    background-position:center;
+    background-size:cover;
+    justify-content: center;
+    align-items: flex-end;
+ }
+ .photography{
+    background-image:url(./images/desktop/image-photography.jpg);
+    background-position:center; 
+    background-size:cover;display: flex;
+    justify-content: center;
+    align-items: flex-end;  
+ }
+.graphic-text{
+    text-align: center;
+    width: 50%;
+    height: fit-content;
+    margin-bottom: 20px;
+    font-size: 200; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+.photography-text{
+    text-align: center;
+    width: 50%;
+    margin-bottom: 20px;
+    font-size: 200;
+    font-family: Arial, Helvetica, sans-serif;
+}   
+.showcase-text{
+    text-align: center;
+    width: 50%; 
+    padding: 100px 70px;
+    text-align: left;  
+    font-size: 100;
+    height: 50%;
+}
+.showcase-text h2{
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-size: 2em;
+}
+.showcase-text p{
+    padding-top: 50px;
+    width: 400px;
+}
+.showcase-text h3 {
+    margin-top: 50px;
+}
+.showcase-text a{
+    text-decoration: none;
+    border-bottom: 2px solid red;
+    color: black;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.bottom{
+    height: 500px;
+} 
+.bottom-text{
+    padding: 60px;
+    text-align: center;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.text-ABC{
+    height: 33.33%;
+    display: flex;
+    padding: 20px;
+    text-align: center;
+    display: flex;justify-content: space-between;
+    text-decoration: none;
+    list-style: none;
+    height: 100%;
+}
+.text-A h4{
+    padding-top: 30px;
+    color: black;
+    font-size: smaller;
+}
+.text-A h5{
+    color: rgb(138, 136, 133);
+}
+.text-A p{
+    padding-top: 30px;
+    color: rgb(54, 53, 53);
+    font-weight: 500;
+    width: 300px;
+}
+.text-A img{
+    border-radius: 50%;
+}
+.text-B h4{
+    padding-top: 30px;
+    color: black;
+    font-size: smaller;
+}
+.text-B h5{
+    color: rgb(138, 136, 133);
+}
+.text-B p{
+    padding-top: 30px;
+    color: rgb(54, 53, 53);
+    font-weight: 500;
+    width: 300px;
+}
+.text-B img{
+    border-radius: 50%;
+}
+.text-C h4{
+    padding-top: 30px;
+    color: black;
+    font-size: smaller;
+}
+.text-C h5{
+    color: rgb(138, 136, 133);
+}
+.text-C p{
+    padding-top: 30px;
+    color: rgb(54, 53, 53);
+    font-weight: 500;
+    width: 300px;
+}
+.text-C img{
+    border-radius: 50%;
+}
+.gallery-images{
+    display: flex;
+}
+.gallery-images img{
+    height: 300px;
+    width: 25%;
+    justify-content: center;
+    background-position:center; 
+    background-size:cover;display: flex;
+    align-items: flex-end;
+}
+.ending{
+    height: 300px;
+    background-color: aquamarine;
+    padding-top: 50px;
+    width: 100%;
+}
+.title{
+    text-align: center;
+    padding: 20px;
+    text-transform: capitalize;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.title h3{
+    color: rgb(25, 88, 88);
+    font-weight: 500px;
+    font-size: 30px;
+}
+.title ul{
+    padding-left: 26em;
+}
+.ending ul a{
+    list-style: none;
+    text-decoration: none;
+    padding-top: 100px;
+    color: rgb(25, 88, 88);
+}
+.ending ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    height: 100%;
+    gap: 3em;
+}
+.ending ul :hover{
+    text-transform: uppercase;
+    color: rgb(255, 251, 251);
+}
+.ending-images{
+    height: 40px;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: flex-end;
+    gap: 2em;  
+}

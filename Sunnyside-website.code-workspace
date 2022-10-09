@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../Desktop/Scrimba.html"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Sunnyside-website",
+		"liveServer.settings.port": 5501
+	}
+}
